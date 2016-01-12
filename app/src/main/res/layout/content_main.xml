@@ -13,8 +13,35 @@
     tools:context="sidespell.tech.midtermassignment01.MainActivity"
     tools:showIn="@layout/activity_main">
 
+
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+
+    android:id="@+id/text1"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Choose a Country"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+
+    <AutoCompleteTextView
+    android:id="@+id/autoComplete"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/text1"
+    android:layout_marginTop="20dp"
+    android:ems="8" />
+
+    <!--<ListView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/listView"-->
+        <!--android:layout_below="@+id/autoComplete"-->
+        <!--android:layout_marginTop="40dp"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true" />-->
+
 </RelativeLayout>
